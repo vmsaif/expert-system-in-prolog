@@ -1,4 +1,14 @@
 
+% -----------------------------------------------------------------------------
+% Author: Saif Mahmud
+% Date: 05-22-2023
+% Course: COMP 456
+% Student ID: 3433058
+% Puspose: Developing an expert system for solving the famous farmer, wolf, goat, cabbage problem.
+% -----------------------------------------------------------------------------
+
+% The Knowledge Base:
+
 % Farmer moves with goat
 rule(
     move(state(F1, W1, G1, C1), state(F2, W2, G2, C2), 'Farmer moves with the goat')) :-

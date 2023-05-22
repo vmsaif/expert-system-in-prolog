@@ -1,4 +1,13 @@
-% 'C:\\\\Users\\\\vmsai\\\\Documents\\\\GitHub\\\\COMP456\\\\FinalProject2\\\\knowledge_base.pl'
+
+% -----------------------------------------------------------------------------
+% Author: Saif Mahmud
+% Date: 05-22-2023
+% Course: COMP 456
+% Student ID: 3433058
+% Puspose: Developing an expert system for solving the famous farmer, wolf, goat, cabbage problem.
+% -----------------------------------------------------------------------------
+
+% The Expert System:
 
 :- dynamic fact/1, rule/1, askable/2.
 
