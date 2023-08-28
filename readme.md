@@ -1,4 +1,4 @@
-# Project Report: Expert System
+# Expert System in Prolog
 
 This expert system is designed to solve the famous Farmer, Wolf, Goat, and Cabbage problem. The farmer wants to take them all across the river from the east shore to the west shore, but his boat is small. The boat has space for only the farmer who can row and one of the items: cabbage, wolf, or goat. The farmer cannot leave the wolf alone with the goat or the goat alone with the cabbage.
 
