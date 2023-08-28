@@ -6,7 +6,19 @@ It is implimented using the prolog programming language which is a logic program
 
 ## Execution Instructions:
 
-In the console, the user should type the following command to start the expert system:
+In the terminal, write 
+```
+swipl
+```
+then press enter.
+
+Then, load the expertSystem.pl file into the prolog environment. The user can use the following command to load the file:
+
+```
+consult('expertSystem.pl').
+```
+
+Next, in the console, the user should type the following command to start the expert system:
 
 ```
 startExpertSystem.
@@ -17,16 +29,18 @@ The system will provide greetings and then will ask for the path of knowledge ba
 ```
 Please enter the name/full path of the file containing the knowledge base:
 
-For example: 'knowledge_base.pl' or 'c:\\Users\\desktop\\finalProject\\knowledge_base.pl' with the quotes.
+For example: 'knowledge_base.pl'. or 'c:\\Users\\desktop\\finalProject\\knowledge_base.pl'. with the quotes and dot.
 |: 
 ```
-The user should provide the path of the knowledge base file. For example:
+MAKE SURE TO ADD THE PERIOD AT THE END OF THE PATH TO EXECUTE THE COMMAND (the normal prolog way).
+
+For Windows users, the user should provide the path of the knowledge base file. For example:
 ```
 'C:\\\\Users\\\\vmsai\\\\Documents\\\\COMP456\\\\FinalProject\\\\knowledge_base.pl'.
 ```
 The file is then loaded into the prolog environment.
 
-From then on, the system will start querying for the next step. The user can enter y to start the search or n to quit the expert system. The user can also enter q to quit or help to see the instructions in the expert system at any time.
+From then on, the system will start querying for the next step. The user can enter `y` to start the search or `n`. To quit the expert system. The user can also enter `q` to quit or help to see the instructions in the expert system at any time.
 
 
 ## Implimentation:

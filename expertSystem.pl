@@ -11,7 +11,7 @@
 % Loading the knowledge base file
 loadKnowledgeBase :-
     writeln('Please enter the name/full path of the file containing the knowledge base:'),nl,
-    writeln("For example: 'knowledge_base.pl' or 'c:\\\\Users\\\\desktop\\\\finalProject\\\\knowledge_base.pl' with the quotes."),
+    writeln("For example: 'knowledge_base.pl' or 'c:\\\\Users\\\\desktop\\\\finalProject\\\\knowledge_base.pl' with the quotes and dot."),
     
     % Read the file name from the user
     read(FileName),
